@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Gauss</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_input_size">inputSize</string>
+    <string name="title_activity_intro">Intro</string>
+    <string name="title_activity_rank">Rank</string>
+    <string name="title_activity_solve">Solve</string>
+    <string name="title_activity_android_bootcamp">AndroidBootcamp</string>
+    <string name="title_activity_ui_tester">UiTester</string>
+    <string name="title_activity_solution_tester">SolutionTester</string>
+
+    <string name="co2">CO<sub>2</sub></string>
+
+</resources>

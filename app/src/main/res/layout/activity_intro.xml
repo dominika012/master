@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Printout"
+    android:background="#ffcf9a">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vstup pre rozmery matice"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Počet premenných"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/columns_id"
+        android:background="#fff6ce"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/rows_id"
+        android:layout_alignStart="@+id/rows_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Počet rovníc"
+        android:id="@+id/textView3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/columns_id"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/rows_id"
+        android:background="#fff6ce"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/button_id"
+        android:layout_below="@+id/rows_id"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vzorový príklad"
+        android:id="@+id/sample_id"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/button_id"
+        android:layout_alignRight="@+id/button_id"
+        android:layout_alignEnd="@+id/button_id" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/tw"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
